@@ -1,5 +1,5 @@
 pluginManagement {
-    includeBuild("../repositories-and-locations")
+    includeBuildEarly("../repositories-and-locations")
 }
 plugins {
     id("com.example.repositories-and-locations")
