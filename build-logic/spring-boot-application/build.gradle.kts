@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(platform(project(":plugins-platform"))) // <2>
+    implementation(platform("com.example.platform:plugins-platform")) // <2>
 
     implementation(project(":commons")) // <3>
 

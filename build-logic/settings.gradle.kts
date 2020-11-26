@@ -4,8 +4,8 @@ dependencyResolutionManagement {
         google()
     }
 }
-// TODO not yet working: includeBuild("../platforms")
-include("plugins-platform") // <-- platform subproject as replacement for above
+
+includeBuild("../platforms")
 
 rootProject.name = "build-logic"
 include("commons")
