@@ -5,7 +5,7 @@ dependencyResolutionManagement {
     }
 }
 
-includeBuild("../platforms")
+includeBuild("../plugins-platform")
 
 rootProject.name = "build-logic"
 include("commons")
