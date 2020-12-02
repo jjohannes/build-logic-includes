@@ -1,6 +1,6 @@
 // == Define locations for build logic ==
 pluginManagement {
-    repositories { gradlePluginPortal() }
+    repositories { gradlePluginPortal(); google() }
     includeBuild("../build-logic")
 }
 
@@ -9,9 +9,9 @@ dependencyResolutionManagement {
     repositories { mavenCentral() }
 }
 
-// includeBuild("../server-application")
-// includeBuild("../android-app")
-// includeBuild("../aggregation")
+includeBuild("../server-application")
+includeBuild("../android-app")
+includeBuild("../aggregation")
 
 includeBuild("../platforms")
 
