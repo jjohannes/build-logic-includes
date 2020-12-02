@@ -8,6 +8,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositories { mavenCentral() }
 }
+includeBuild("../plugins-platform") // FIXME this should not be here!
 
 includeBuild("../server-application")
 includeBuild("../android-app")
