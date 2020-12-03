@@ -1,7 +1,7 @@
 // == Define locations for build logic ==
 pluginManagement {
     repositories { gradlePluginPortal(); google() }
-    includeBuild("../build-logic")
+    (this as org.gradle.plugin.management.internal.PluginManagementSpecInternal).includeBuild("../build-logic")
 }
 
 // == Define locations for components ==
